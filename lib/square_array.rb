@@ -3,7 +3,7 @@ def square_array(array)
   
   while array[counter] do
     array_output = array[counter] **2
-    p array_output
+    print array_output
     counter += 1
   end
 end
