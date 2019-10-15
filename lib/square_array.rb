@@ -1,11 +1,11 @@
 def square_array(numbers)
   counter = 0 
-  extra_array = []
+  squared_array = []
   
   while numbers[counter] do
-    array_numbers = numbers[counter] **2
-    extra_array << array_numbers
+    squared_number = numbers[counter] **2
+    extra_array << squared_number
     counter += 1
   end
-  p extra_array
+  p squared_array
 end
